@@ -1,0 +1,81 @@
+body{
+	padding: 0;
+	margin:0;
+	text-align: center;
+}
+
+*{
+	font-family: sans-serif;
+}
+
+select{
+	margin: 2px;
+	background-color: purple;
+	color: white;
+	width: 240px;
+	height: 22px;
+	border:none;
+	border-left:1px solid purple;
+	text-align: center;
+}
+input{
+	margin: 2px;
+	background-color: purple;
+	color: white;
+	width: 240px;
+	height: 22px;
+	border:none;
+	border-left:1px solid purple;
+	text-align: center;
+}
+
+.search_fild{
+	text-align: center;
+	width: 260px;
+	border: none;
+	border: 1px dashed purple;
+}
+
+.button_1{
+	width: 80px;
+	background: purple;
+	color: white;
+	border:1px solid purple;
+}
+.button_1:hover{
+	transform: scale(1.04);
+}
+
+.search_fild_form{
+	margin:100px auto;
+	display: inline-block;
+	width: 300px;
+	height: auto;
+}
+
+.menu{
+	background-color: purple;
+	width: 70px;
+	height: 25px;
+	position: fixed;
+	right: 10px;
+	top:0;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.hidden{
+	display: none;
+}
+
+p{
+	color:purple;
+}
+
+.about{
+	width: 300px;
+	height: 200px;
+	border: 1px solid purple;
+}

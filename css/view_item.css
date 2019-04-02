@@ -1,0 +1,44 @@
+body{
+	color: purple;
+	padding: 0;
+	margin:0;
+	text-align: center;
+
+}
+
+.wrapper{
+	margin:1px auto;
+	width:480px;
+	height: auto;
+}
+
+.img_box{
+	border: 1px solid purple;
+	width: 100%;
+	height: auto;
+}
+
+.img_box img{
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 320px){
+	.wrapper{
+		width: 100%;
+	}
+}
+
+.info{
+	width: 100%;
+	height: auto;
+	word-wrap: break-word;
+}
+
+.info p{
+		padding: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
